@@ -1,0 +1,29 @@
+@media (min-width: 0px) {
+  .row div {
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 576px) {
+  .row div {
+    background-color: aquamarine;
+  }
+}
+
+@media (min-width: 768px) {
+  .row div {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 992px) {
+  .row div {
+    background-color: blueviolet;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row div {
+    background-color: cadetblue;
+  }
+}
