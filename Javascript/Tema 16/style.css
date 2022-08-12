@@ -1,0 +1,29 @@
+.section {
+  background: #9ee493;
+  padding: 20px;
+}
+.section:first-child {
+  margin-bottom: 20px;
+}
+.section p {
+  margin: 20px;
+  padding: 20px;
+  background: #daf7dc;
+}
+
+.trash {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: #ffe4c4;
+  border-radius: 100%;
+  padding: 10px;
+}
+.trash.hidden {
+  visibility: hidden;
+}
+.trash.drag {
+  opacity: 0.75;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+// .seccion {
+//   background: #9ee493;
+//   padding: 20px;
+//   margin: 20px 0;
+
+//   p {
+//     margin: 20px;
+//     padding: 20px;
+//     background: #daf7dc;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//   }
+// }
+
+.section {
+  background: #9ee493;
+  padding: 20px;
+
+  &:first-child {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin: 20px;
+    padding: 20px;
+    background: #daf7dc;
+  }
+}
+
+.trash {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: #ffe4c4;
+  border-radius: 100%;
+  padding: 10px;
+
+  &.hidden {
+    visibility: hidden;
+  }
+
+  &.drag {
+    opacity: 0.75;
+  }
+}
